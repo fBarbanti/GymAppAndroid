@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "138977652730",
+    "project_id": "gymfirebaselogin",
+    "storage_bucket": "gymfirebaselogin.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:138977652730:android:2b27f301094134690bfe43",
+        "android_client_info": {
+          "package_name": "com.example.newgymapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "138977652730-p75f6jj1fcicdpg19l5svikrr4lh09q9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCw8fcumk_ahtzVWmXgkQCjtZouAAnzWjI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "138977652730-p75f6jj1fcicdpg19l5svikrr4lh09q9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

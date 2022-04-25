@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/dialog_background"
+    android:padding="20dp"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/exercise_name_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:ems="10"
+        android:textColor="@color/white"
+        android:fontFamily="@font/roboto_regular"
+        android:hint="Exercise name"
+        android:backgroundTint="@color/custom_gray"
+        android:textColorHint="@color/custom_gray"
+        android:inputType="textPersonName" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp">
+        <NumberPicker
+            android:id="@+id/minutes_picker"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:theme="@style/NumberPickerTheme"
+            android:layout_height="70dp">
+        </NumberPicker>
+
+        <NumberPicker
+            android:id="@+id/seconds_picker"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:theme="@style/NumberPickerTheme"
+            android:layout_height="70dp"
+            >
+        </NumberPicker>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layoutDirection="rtl"
+        >
+        <Button
+            android:id="@+id/btn_add_exercise_dialog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add"
+            android:textColor="@color/main_color"
+            android:fontFamily="@font/roboto_bold"
+            android:background="@android:color/transparent"
+            />
+    </LinearLayout>
+
+</LinearLayout>
